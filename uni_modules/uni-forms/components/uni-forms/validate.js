@@ -271,9 +271,12 @@ const RuleValidatorHelper = {
 	},
 
 	rangeNumber(rule, value, message) {
-		if (!types.number(value)) {
+		// 传过来的 value 是 string 类型
+		if (!/^-?\d+.?\d*$/.test(value)) {
 			return formatMessage(rule, rule.errorMessage || message.pattern.mismatch);
 		}
+
+		value = Number(value)
 
 		let {
 			minimum,

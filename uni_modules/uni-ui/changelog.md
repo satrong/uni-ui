@@ -1,3 +1,8 @@
+## 0.4.25（2022-11-14）
+- uni-easyinput 修复 props 中背景颜色无默认值的bug
+- uni-list uni-list 新增属性 render-reverse 详情参考：[https://uniapp.dcloud.net.cn/component/list.html](https://uniapp.dcloud.net.cn/component/list.html)
+- uni-list uni-list-chat note属性 支持：“草稿”字样 加红显示 详情参考uni-im：[https://ext.dcloud.net.cn/plugin?name=uni-im](https://ext.dcloud.net.cn/plugin?name=uni-im)
+- uni-list uni-list-item 新增属性 customStyle 支持设置padding、backgroundColor
 ## 1.4.23（2022-10-25）
 - uni-datetime-picker 修复，支付宝小程序样式错乱，[详情](https://github.com/dcloudio/uni-app/issues/3861)
 

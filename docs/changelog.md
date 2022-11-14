@@ -7,6 +7,25 @@
 - 主版本号：含有破坏性更新和新特性，不在发布周期内。
 
 <!-- 更新占位 -->
+<log title="0.4.25" date="2022-11-14">
+	<log-item title="uni-easyinput 组件更新">
+		<log-item-text tag-type="fix">
+			 props 中背景颜色无默认值的bug
+		</log-item-text>
+	</log-item>
+	<log-item title="uni-list 组件更新">
+		<log-item-text tag-type="perf">
+			 uni-list 新增属性 render-reverse 详情参考：[https://uniapp.dcloud.net.cn/component/list.html](https://uniapp.dcloud.net.cn/component/list.html)
+		</log-item-text>
+		<log-item-text tag-type="perf">
+			 uni-list-chat note属性 支持：“草稿”字样 加红显示 详情参考uni-im：[https://ext.dcloud.net.cn/plugin?name=uni-im](https://ext.dcloud.net.cn/plugin?name=uni-im)
+		</log-item-text>
+		<log-item-text tag-type="perf">
+			 uni-list-item 新增属性 customStyle 支持设置padding、backgroundColor
+		</log-item-text>
+	</log-item>
+</log>
+
 <log title="1.4.23" date="2022-10-25">
 	<log-item title="uni-datetime-picker 组件更新">
 		<log-item-text tag-type="fix">
